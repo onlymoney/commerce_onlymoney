@@ -1,0 +1,13 @@
+name = Commerce Onlymoney
+description = Implements Onlymoney.com payment services for use with Drupal Commerce.
+package = Commerce (contrib)
+
+dependencies[] = commerce
+dependencies[] = commerce_payment
+dependencied[] = entity
+dependencies[] = rules
+
+configure=admin/commerce/config/payment-methods
+
+core = 7.x
+version = 7.x-1.0
